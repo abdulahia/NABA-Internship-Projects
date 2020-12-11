@@ -20,9 +20,7 @@ namespace UserDetails
                 string userInfo1 = Console.ReadLine();
 
 
-            // }
-            //public void info(string userInfo, string userInfo1)
-            //{
+            
             ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
             ExcelPackage UserDetail = new ExcelPackage();
                 ExcelWorksheet works = UserDetail.Workbook.Worksheets.Add("Person Info");
